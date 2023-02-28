@@ -44,6 +44,8 @@ if [ ! $NIBIRU_MONIKER ]; then
     echo 'export NIBIRU_MONIKER='\"${NIBIRU_MONIKER}\" >> $HOME/.bash_profile
 fi
 
+CHAIN_ID=nibiru-itn-1
+
 nibid init $NIBIRU_MONIKER --chain-id $CHAIN_ID
 nibid config chain-id $CHAIN_ID
 
