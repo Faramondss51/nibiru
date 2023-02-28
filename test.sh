@@ -6,7 +6,7 @@ fi
 echo "==========UPDATING PACKAGES=========="
 sleep 2
 
-sudo apt-get update && sudo apt-get upgrade y 
+sudo apt-get update && sudo apt-get upgrade -y 
 
 echo "==========INSTALLING LINUX DEPENDENCIES=========="
 sleep 2
