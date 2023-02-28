@@ -1,4 +1,18 @@
-if [ -f "$bash_profile" ]; then
+echo "     _    _         _                   _____ _           _           "
+echo "    / \  (_)_ __ __| |_ __ ___  _ __   |  ___(_)_ __   __| | ___ _ __ "
+echo "   / _ \ | | '__/ _\` | '__/ _ \| '_ \  | |_  | | '_ \ / _\` |/ _ \ '__|"
+echo "  / ___ \| | | | (_| | | | (_) | |_) | |  _| | | | | | (_| |  __/ |   "
+echo " /_/   \_\_|_|  \__,_|_|  \___/| .__/  |_|   |_|_| |_|\__,_|\___|_|   "
+echo "                               |_|                                    "
+
+echo "Website  : https://www.airdropfinder.com"
+echo "Telegram : https://t.me/airdropfind"
+echo "Facebook : https://www.facebook.com/groups/744001332439290"
+echo "Twitter  : https://twitter.com/AirdropfindX"
+sleep 5
+
+
+if [ -f $HOME/.bash_profile ]; then
     . $HOME/.bash_profile
 fi
 
